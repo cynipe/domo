@@ -16,7 +16,7 @@ Install
 
 ::
 
-  rake install
+  gem install domo
 
 Usage
 -----
