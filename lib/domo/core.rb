@@ -82,7 +82,7 @@ module Domo
 
     # ジョブ名一覧ファイルをもとに対象のJenkinsからジョブを削除する
     # 破壊的なメソッドなのでdryrunがデフォルト
-    def delete(target, joblist, dryrun=true)
+    def delete(target, job_list, dryrun=true)
       raise "target file unreadable" unless File.readable? job_list
       login(target) if auth_required?(target)
       puts "!!dryrun mode!!" if dryrun
