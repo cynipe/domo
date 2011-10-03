@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.executables = ["domo"]
   s.require_paths = ["lib"]
 
-  s.add_dependency("bundler")
-  s.add_dependency("mechanize")
-  s.add_dependency("nokogiri")
-  s.add_dependency("highline")
-  s.add_dependency("thor")
+  s.add_dependency "bundler", "~>1.0.21"
+  s.add_dependency "mechanize", "~>2.0.1"
+  s.add_dependency "nokogiri", "~>1.5.0"
+  s.add_dependency "highline", "~>1.6.2"
+  s.add_dependency "thor", "~>0.14.6"
 end

@@ -1,7 +1,4 @@
 # -*- encoding: utf-8 -*-
-require 'rubygems'
-require 'bundler/setup'
-require 'open-uri'
 require 'nokogiri'
 require 'mechanize'
 require 'erb'
