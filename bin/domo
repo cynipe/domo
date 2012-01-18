@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -U
+#!/usr/bin/env ruby
 require "domo"
 
 Domo::CLI.start

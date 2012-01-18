@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -U
+# -*- encoding: utf-8 -*-
 require "thor"
 require "domo"
 
