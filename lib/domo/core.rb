@@ -1,7 +1,6 @@
 # -*- encoding: utf-8 -*-
 require 'nokogiri'
 require 'mechanize'
-require 'erb'
 require 'highline'
 
 # オレオレ証明を無視する為
